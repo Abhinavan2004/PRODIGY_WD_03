@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background-color: #004953;
+}
+
+.heading{
+    background-color: #0a9797;
+    height:70px;
+    width:100%;
+    color:black; 
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.container{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.gameplay{
+    height:100%;
+    width:30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.2vmin;
+}
+
+#he{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8B3E9;
+    width:30%;
+    height:30%;
+    border-radius: 10px;
+    border:none;
+    font-size: 3rem;
+    box-shadow:4px 4px 5px lightblue;
+    color:#6E44FF;
+}
+
+.re{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    height:80px;
+    width:180px;
+    margin-top:40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.7rem;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#mesg{
+    height:80px;
+    width:20%;
+    margin-top:20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.7rem;
+}
+
+
